@@ -14,6 +14,7 @@
 		8B94CA5B228CC4F800565BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B94CA59228CC4F800565BB7 /* LaunchScreen.storyboard */; };
 		8B94CA63228CC6F900565BB7 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94CA62228CC6F900565BB7 /* Photo.swift */; };
 		8B94CA65228CC7B400565BB7 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94CA64228CC7B400565BB7 /* PhotoController.swift */; };
+		8B94CA68228CC96600565BB7 /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94CA67228CC96600565BB7 /* ThemeHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8B94CA5C228CC4F800565BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B94CA62228CC6F900565BB7 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		8B94CA64228CC7B400565BB7 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		8B94CA67228CC96600565BB7 /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8B94CA50228CC4F200565BB7 /* AppDelegate.swift */,
 				8B94CA52228CC4F200565BB7 /* ViewController.swift */,
 				8B94CA54228CC4F200565BB7 /* Main.storyboard */,
+				8B94CA67228CC96600565BB7 /* ThemeHelper.swift */,
 				8B94CA66228CC90400565BB7 /* Model & Model Controller */,
 				8B94CA57228CC4F800565BB7 /* Assets.xcassets */,
 				8B94CA59228CC4F800565BB7 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 				8B94CA63228CC6F900565BB7 /* Photo.swift in Sources */,
 				8B94CA53228CC4F200565BB7 /* ViewController.swift in Sources */,
 				8B94CA65228CC7B400565BB7 /* PhotoController.swift in Sources */,
+				8B94CA68228CC96600565BB7 /* ThemeHelper.swift in Sources */,
 				8B94CA51228CC4F200565BB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
