@@ -71,11 +71,8 @@
 				8B94CA50228CC4F200565BB7 /* AppDelegate.swift */,
 				8B94CA52228CC4F200565BB7 /* ViewController.swift */,
 				8B94CA54228CC4F200565BB7 /* Main.storyboard */,
-				8B94CA70228CD45C00565BB7 /* ThemeSelectionViewController.swift */,
-				8B94CA6E228CCE8900565BB7 /* PhotoDetailViewController.swift */,
-				8B94CA6A228CCC8100565BB7 /* PhotosCollectionViewController.swift */,
-				8B94CA6C228CCDAB00565BB7 /* PhotosCollectionViewCell.swift */,
-				8B94CA67228CC96600565BB7 /* ThemeHelper.swift */,
+				8B94CA73228CD7B800565BB7 /* View Controllers */,
+				8B94CA74228CD7C800565BB7 /* Views */,
 				8B94CA66228CC90400565BB7 /* Model & Model Controller */,
 				8B94CA57228CC4F800565BB7 /* Assets.xcassets */,
 				8B94CA59228CC4F800565BB7 /* LaunchScreen.storyboard */,
@@ -91,6 +88,25 @@
 				8B94CA64228CC7B400565BB7 /* PhotoController.swift */,
 			);
 			path = "Model & Model Controller";
+			sourceTree = "<group>";
+		};
+		8B94CA73228CD7B800565BB7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B94CA70228CD45C00565BB7 /* ThemeSelectionViewController.swift */,
+				8B94CA6E228CCE8900565BB7 /* PhotoDetailViewController.swift */,
+				8B94CA6A228CCC8100565BB7 /* PhotosCollectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8B94CA74228CD7C800565BB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B94CA6C228CCDAB00565BB7 /* PhotosCollectionViewCell.swift */,
+				8B94CA67228CC96600565BB7 /* ThemeHelper.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

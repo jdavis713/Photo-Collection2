@@ -38,7 +38,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwj-NW-toX">
                                             <rect key="frame" x="0.0" y="139" width="210" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -54,6 +54,8 @@
                                     <constraint firstItem="Mti-uu-iSd" firstAttribute="top" secondItem="dOw-EQ-SGT" secondAttribute="top" id="qpU-Qd-ubf"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="imageView" destination="Mti-uu-iSd" id="rit-LY-Qhh"/>
+                                    <outlet property="photoLabel" destination="Kwj-NW-toX" id="Nny-EH-RBB"/>
                                     <segue destination="J4b-rA-zgT" kind="show" identifier="PhotoDetail" id="ipI-va-UL9"/>
                                 </connections>
                             </collectionViewCell>
@@ -144,7 +146,9 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOM-4f-8pP">
                                 <rect key="frame" x="171" y="386" width="72" height="30"/>
-                                <state key="normal" title="Add Photo"/>
+                                <state key="normal" title="Add Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="addPhoto:" destination="J4b-rA-zgT" eventType="touchUpInside" id="nSD-WL-8w1"/>
                                 </connections>
